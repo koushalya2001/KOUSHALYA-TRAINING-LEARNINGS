@@ -1,7 +1,7 @@
 # KOUSHALYA-TRAINING-LEARNINGS
 # CONSOLIDATED EXERCISE-LOCATED IN FOLDER PythonVisualizations
 ## Highlights !- Qucik way to convert dataframe fields to numeric format
-``
+```
 df_SPX[['Open','High','Low','Price']]=df_SPX[['Open','High','Low','Price']].apply(lambda x:pd.to_numeric(x.replace('\,','',regex=True)))
 ```
 #Image Complimenting the Python codes
